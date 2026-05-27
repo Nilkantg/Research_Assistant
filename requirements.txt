@@ -30,7 +30,7 @@ uvicorn[standard]==0.32.0          # ASGI server with WebSocket support
 python-multipart==0.0.12           # For file upload handling
 
 # --- Database ---
-sqlalchemy==2.0.36                 # ORM for chat history storage
+sqlalchemy==2.0.35                 # ORM for chat history storage
 aiosqlite==0.20.0                  # Async SQLite driver
 
 # --- Configuration ---
@@ -44,6 +44,6 @@ httpx==0.27.2
 # --- Testing ---
 pytest==8.3.3
 pytest-asyncio==0.24.0
-httpx                              # also used for TestClient in FastAPI tests
+# httpx                              # also used for TestClient in FastAPI tests
 
 # running from remote laptop
