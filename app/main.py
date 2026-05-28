@@ -19,8 +19,8 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from config.settings import get_settings
-from utils.logging import setup_logging
+from config import get_settings
+from utils import setup_logging
 
 # ---------------------------------------------------------------
 # Get settings singleton.
